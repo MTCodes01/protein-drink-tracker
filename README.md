@@ -1,19 +1,34 @@
-# Protein Drink Tracker
+# Contributing to ProteinTracker PWA
 
-PWA (HTML/CSS/JS) to track whether you’ve drunk your protein drink today. Resets at 2am local time. Toggle shows a different image (e.g. “drank” vs “not drank”).
+Thank you for your interest in contributing! 🙌
 
-## Push to GitHub
+This guide explains the easiest way to contribute to this project, whether it's fixing a bug, adding a feature, or improving documentation.
 
-Repo: **https://github.com/softwarewithnick/protein-tracker-mobile.git**
+---
 
-1. Open PowerShell and go to the project folder:
-   ```powershell
-   cd "E:\PWA\ProteinDrinkTracker"
-   ```
-2. Run the push script (this will init git, add all files, commit, and push):
-   ```powershell
-   .\push-to-github.ps1
-   ```
-3. If prompted, sign in to GitHub. Ensure you have push access to `softwarewithnick/protein-tracker-mobile`.
+## 1. Opening an Issue (Optional but Recommended)
 
-To run the script: right-click `push-to-github.ps1` → **Run with PowerShell**, or run the commands above in a terminal.
+Before you start coding:
+1. Check the existing issues to see if someone else is already working on it.
+2. If not, create a new issue describing:
+   - What the problem or feature is
+   - Steps to reproduce (if it’s a bug)
+   - Any screenshots or examples that help explain
+
+> This helps maintainers and other contributors coordinate effectively.
+
+---
+
+## 2. Fork the Repository
+
+Click the **Fork** button at the top-right of the GitHub page.  
+This creates a copy of the repo under your account.
+
+---
+
+## 3. Create a Branch
+
+From your fork, create a new branch for your changes:
+
+```bash
+git checkout -b feature/my-feature
