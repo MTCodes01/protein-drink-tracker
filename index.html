@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a1a2e">
+  <title>Protein Drink Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <main class="app">
+    <h1 class="title">Protein Drink Tracker</h1>
+
+    <div class="graphic-container" aria-hidden="true">
+      <!-- Drank: e.g. Arnold / flexed – use images/drank.jpg -->
+      <img id="arm-flexed" class="graphic-img hidden" src="images/drank.png" alt="Protein drank today" />
+      <!-- Not drank: use images/not-drank.jpg -->
+      <img id="arm-weak" class="graphic-img" src="images/not-drank.png" alt="Protein not yet drank today" />
+    </div>
+
+    <p id="status-text" class="status"></p>
+
+    <button type="button" id="toggle-btn" class="toggle-btn" aria-pressed="false">
+      I drank my protein
+    </button>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
