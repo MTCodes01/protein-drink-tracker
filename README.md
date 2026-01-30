@@ -2,6 +2,8 @@
 
 Welcome to **ProteinTracker PWA**! 🥤
 
+Link to live app: [protein-shake-tracker.netlify.app](https://protein-shake-tracker.netlify.app/)
+
 This is a simple Progressive Web App to track your daily protein drink intake.  
 This project is **open-source** and primarily for **educational purposes**, so small features, bug fixes, and improvements are all welcome.
 Below is a description of steps to follow to contribute to this project.
